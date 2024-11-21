@@ -1,0 +1,16 @@
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Datasetdb log
+*.log
+*.h5mu
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.joblib
+*.npy
+
+#Slurm output files
+*.out
