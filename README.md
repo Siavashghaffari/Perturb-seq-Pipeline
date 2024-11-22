@@ -1,4 +1,4 @@
-# Analytical_pipeline_template
+# Analytical pipeline template
 
 
 
