@@ -1,6 +1,7 @@
 # Analytical_pipeline_template
 
 
+
 **Section 1: Running Cumulus Analysis**
 
 **Step 1: Setting Up Initial Data**
@@ -53,9 +54,19 @@
 - Store all results within an AnnData object, with embedding and energy distance p-values exported as CSV files to the respective folder.
 
 
+
 Follow these comprehensive steps to effectively run the Crop-Seq pipeline and analyze your data. Adjustments and environment modifications can be made as necessary to suit specific requirements and data configurations.
 
 ![IMAGE_DESCRIPTION](workflow.png)
+
+
+## Installation
+Clone the repository and install the required dependencies:
+```bash
+git clone https://github.com/Siavashghaffari/Perturb-seq-Pipeline
+cd Perturb-seq-Pipeline
+pip install -r requirements.txt
+```
 
 ## AnnData Schema
 
