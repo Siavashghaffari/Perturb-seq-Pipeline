@@ -40,7 +40,7 @@ This pipeline provides a comprehensive approach to analyze large-scale Perturb-s
    Analyze the differences between perturbations in the data by calculating **energy distance**, **cosine similarity**, and performing **multivariate analysis**. **Energy distance** measures the statistical difference between distributions, **cosine similarity** quantifies angular similarity between gene expression profiles, and **multivariate analysis** explores the relationship between multiple variables, providing a more comprehensive understanding of perturbation effects on cellular functions.
 
 
-11. **[Perturbation Efficiency Calculation*](https://github.com/Siavashghaffari/Perturb-seq-Pipeline/tree/main/crop-seq-pipeline(post-QC))*  
+11. **[Perturbation Efficiency Calculation](https://github.com/Siavashghaffari/Perturb-seq-Pipeline/tree/main/crop-seq-pipeline(post-QC))**
    Calculate the efficiency of each perturbation, evaluating how well each treatment or intervention influences cellular outcomes.
 
 These stages enable comprehensive analysis of genetic perturbations in single-cell data, providing insights into cell type-specific responses and functional genomics.
