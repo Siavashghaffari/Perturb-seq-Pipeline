@@ -1,6 +1,52 @@
-# Analytical pipeline template
+# Perturb-seq Pipeline
+
+## An End-to-End Analytical Pipeline for Large Perturb-seq (or Crop-seq) Screens
+
+This pipeline provides a comprehensive approach to analyze large-scale Perturb-seq or Crop-seq screens, supporting critical tasks from alignment to identifying significant perturbations.
+
+---
+
+## Key Analysis Stages
+
+1. **Alignment**  
+   Align raw sequencing reads to a reference genome to ensure that the data is mapped correctly for downstream analysis.
+
+2. **HTO Demultiplexing**  
+   Process the Hashing-Tag-Oligonucleotide (HTO) barcodes to separate samples in the multiplexed data, ensuring proper sample identification.
+
+3. **CRISPR Demultiplexing**  
+   Separate and assign CRISPR guide RNA sequences to their corresponding cells, facilitating the identification of specific perturbations used in the experiment.
+
+4. **Quality Control (QC)**  
+   Perform quality checks on the demultiplexed data to assess its integrity, remove low-quality reads, and ensure readiness for analysis.
+
+5. **Cell Type Classification**  
+   Classify cells into predefined categories based on expression patterns, allowing for targeted analysis of specific cell types.
+
+6. **Embeddings**  
+   Use dimensionality reduction techniques like PCA or UMAP to embed high-dimensional data into lower-dimensional space for visualization.
+
+7. **Data Integration and Batch Effect Correction using scVI**  
+   Integrate data from multiple sources or batches while correcting for batch effects using **scVI** (single-cell Variational Inference), a deep learning-based approach. This helps in normalizing data across different experimental conditions and ensures that variations due to batch differences are minimized, improving downstream analysis.
+
+8. **Feature Selection using Binomial Deviance Genes**  
+   Select the most relevant features using statistical methods like binomial deviance to highlight significant genes for further analysis. We employed the top 3000 binomial deviance genes. This method focuses on genes that deviate most from a binomial distribution, capturing rare and highly informative features within the dataset.
+
+9. **Beta Coefficient Calculation**  
+   Compute beta coefficients to measure the effect of each gene or feature on the variable of interest in the analysis.
+
+10. **Identifying Significant Perturbations using Energy Distance and Cosine Similarity**  
+   Analyze the differences between perturbations in the data by calculating energy distance and cosine similarity. **Energy distance** measures the statistical difference between distributions, while **cosine similarity** quantifies the angular similarity between vectors, often used for comparing gene expression profiles between different conditions or perturbations. This combined approach helps to identify and validate significant effects on cellular function.
+
+11. **Perturbation Efficiency Calculation**  
+   Calculate the efficiency of each perturbation, evaluating how well each treatment or intervention influences cellular outcomes.
+
+These stages enable comprehensive analysis of genetic perturbations in single-cell data, providing insights into cell type-specific responses and functional genomics.
+
+![IMAGE_DESCRIPTION](workflow.png)
 
 
+## Usage
 
 **Section 1: Running Cumulus Analysis**
 
@@ -53,11 +99,7 @@
 
 - Store all results within an AnnData object, with embedding and energy distance p-values exported as CSV files to the respective folder.
 
-
-
 Follow these comprehensive steps to effectively run the Crop-Seq pipeline and analyze your data. Adjustments and environment modifications can be made as necessary to suit specific requirements and data configurations.
-
-![IMAGE_DESCRIPTION](workflow.png)
 
 
 ## Installation
@@ -67,6 +109,7 @@ git clone https://github.com/Siavashghaffari/Perturb-seq-Pipeline
 cd Perturb-seq-Pipeline
 pip install -r requirements.txt
 ```
+
 
 ## AnnData Schema
 
