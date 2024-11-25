@@ -8,8 +8,9 @@ This pipeline provides a comprehensive approach to analyze large-scale Perturb-s
 
 ## Key Analysis Stages
 
-1. **Alignment**  
-   Align raw sequencing reads to a reference genome to ensure that the data is mapped correctly for downstream analysis.
+1. **[Alignment](https://github.com/Siavashghaffari/Perturb-seq-Pipeline/tree/main/Cumulus/Split_1/cellranger)**  
+   The alignment of raw sequencing data was performed using the **CellRanger** workflow, which processes the data by aligning reads to the reference genome, performing quality control (QC), and generating gene expression matrices. CellRanger is specifically designed for single-cell RNA-seq data, ensuring accurate mapping of reads and enabling efficient downstream analysis.
+
 
 2. **HTO Demultiplexing**  
    Process the Hashing-Tag-Oligonucleotide (HTO) barcodes to separate samples in the multiplexed data, ensuring proper sample identification.
@@ -35,8 +36,9 @@ This pipeline provides a comprehensive approach to analyze large-scale Perturb-s
 9. **Beta Coefficient Calculation**  
    Compute beta coefficients to measure the effect of each gene or feature on the variable of interest in the analysis.
 
-10. **Identifying Significant Perturbations using Energy Distance and Cosine Similarity**  
-   Analyze the differences between perturbations in the data by calculating energy distance and cosine similarity. **Energy distance** measures the statistical difference between distributions, while **cosine similarity** quantifies the angular similarity between vectors, often used for comparing gene expression profiles between different conditions or perturbations. This combined approach helps to identify and validate significant effects on cellular function.
+10. **Identifying Significant Perturbations using Energy Distance, Cosine Similarity, and Multivariate Analysis**  
+   Analyze the differences between perturbations in the data by calculating **energy distance**, **cosine similarity**, and performing **multivariate analysis**. **Energy distance** measures the statistical difference between distributions, **cosine similarity** quantifies angular similarity between gene expression profiles, and **multivariate analysis** explores the relationship between multiple variables, providing a more comprehensive understanding of perturbation effects on cellular functions.
+
 
 11. **Perturbation Efficiency Calculation**  
    Calculate the efficiency of each perturbation, evaluating how well each treatment or intervention influences cellular outcomes.
