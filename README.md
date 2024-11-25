@@ -21,26 +21,26 @@ This pipeline provides a comprehensive approach to analyze large-scale Perturb-s
 4. **[Quality Control (QC)](https://github.com/Siavashghaffari/Perturb-seq-Pipeline/tree/main/crop-seq-pipeline%20(QC))**  
    Perform quality checks on the demultiplexed data to assess its integrity, remove low-quality reads, and ensure readiness for analysis.
 
-5. **Cell Type Classification**  
+5. **[Cell Type Classification](https://github.com/Siavashghaffari/Perturb-seq-Pipeline/tree/main/crop-seq-pipeline(post-QC))**  
    Classify cells into predefined categories based on expression patterns, allowing for targeted analysis of specific cell types.
 
-6. **Embeddings**  
+6. **[Embeddings](https://github.com/Siavashghaffari/Perturb-seq-Pipeline/tree/main/crop-seq-pipeline(post-QC))**  
    Use dimensionality reduction techniques like PCA or UMAP to embed high-dimensional data into lower-dimensional space for visualization.
 
-7. **Data Integration and Batch Effect Correction using scVI**  
+7. **[Data Integration and Batch Effect Correction using scVI](https://github.com/Siavashghaffari/Perturb-seq-Pipeline/tree/main/crop-seq-pipeline(post-QC))**  
    Integrate data from multiple sources or batches while correcting for batch effects using **scVI** (single-cell Variational Inference), a deep learning-based approach. This helps in normalizing data across different experimental conditions and ensures that variations due to batch differences are minimized, improving downstream analysis.
 
-8. **Feature Selection using Binomial Deviance Genes**  
+8. **[Feature Selection using Binomial Deviance Genes](https://github.com/Siavashghaffari/Perturb-seq-Pipeline/tree/main/crop-seq-pipeline(post-QC))**  
    Select the most relevant features using statistical methods like binomial deviance to highlight significant genes for further analysis. We employed the top 3000 binomial deviance genes. This method focuses on genes that deviate most from a binomial distribution, capturing rare and highly informative features within the dataset.
 
-9. **Beta Coefficient Calculation**  
+9. **[Beta Coefficient Calculation](https://github.com/Siavashghaffari/Perturb-seq-Pipeline/tree/main/crop-seq-pipeline(post-QC))**  
    Compute beta coefficients to measure the effect of each gene or feature on the variable of interest in the analysis.
 
-10. **Identifying Significant Perturbations using Energy Distance, Cosine Similarity, and Multivariate Analysis**  
+10. **[Identifying Significant Perturbations using Energy Distance, Cosine Similarity, and Multivariate Analysis](https://github.com/Siavashghaffari/Perturb-seq-Pipeline/tree/main/crop-seq-pipeline(post-QC))**  
    Analyze the differences between perturbations in the data by calculating **energy distance**, **cosine similarity**, and performing **multivariate analysis**. **Energy distance** measures the statistical difference between distributions, **cosine similarity** quantifies angular similarity between gene expression profiles, and **multivariate analysis** explores the relationship between multiple variables, providing a more comprehensive understanding of perturbation effects on cellular functions.
 
 
-11. **Perturbation Efficiency Calculation**  
+11. **[Perturbation Efficiency Calculation*](https://github.com/Siavashghaffari/Perturb-seq-Pipeline/tree/main/crop-seq-pipeline(post-QC))*  
    Calculate the efficiency of each perturbation, evaluating how well each treatment or intervention influences cellular outcomes.
 
 These stages enable comprehensive analysis of genetic perturbations in single-cell data, providing insights into cell type-specific responses and functional genomics.
