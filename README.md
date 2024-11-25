@@ -8,17 +8,17 @@ This pipeline provides a comprehensive approach to analyze large-scale Perturb-s
 
 ## Key Analysis Stages
 
-1. **[Alignment](https://github.com/Siavashghaffari/Perturb-seq-Pipeline/tree/main/Cumulus/Split_1/cellranger)**  
+1. **[Alignment](https://github.com/Siavashghaffari/Perturb-seq-Pipeline/tree/main/Cumulus)**  
    The alignment of raw sequencing data was performed using the **CellRanger** workflow, which processes the data by aligning reads to the reference genome, performing quality control (QC), and generating gene expression matrices. CellRanger is specifically designed for single-cell RNA-seq data, ensuring accurate mapping of reads and enabling efficient downstream analysis.
 
 
-2. **HTO Demultiplexing**  
+2. **[HTO Demultiplexing](https://github.com/Siavashghaffari/Perturb-seq-Pipeline/tree/main/Cumulus)**  
    Process the Hashing-Tag-Oligonucleotide (HTO) barcodes to separate samples in the multiplexed data, ensuring proper sample identification.
 
-3. **CRISPR Demultiplexing**  
+3. **[CRISPR Demultiplexing](https://github.com/Siavashghaffari/Perturb-seq-Pipeline/tree/main/Cumulus)**  
    Separate and assign CRISPR guide RNA sequences to their corresponding cells, facilitating the identification of specific perturbations used in the experiment.
 
-4. **Quality Control (QC)**  
+4. **[Quality Control (QC)](https://github.com/Siavashghaffari/Perturb-seq-Pipeline/tree/main/crop-seq-pipeline%20(QC))**  
    Perform quality checks on the demultiplexed data to assess its integrity, remove low-quality reads, and ensure readiness for analysis.
 
 5. **Cell Type Classification**  
