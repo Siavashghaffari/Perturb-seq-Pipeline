@@ -1,0 +1,12 @@
+[
+  {
+    "name": "NTC",
+    "column": "gene_symbol",
+    "values": ["NTC"]
+  },
+  {
+    "name": "OlfactoryReceptors",
+    "column": "gene_symbol",
+    "values": ["OR2K2","OR9A4","OR13C2","OR8J3","OR11H6","OR10A2","OR13C9","OR1K1","OR5B17","OR6V1","OR4A15","OR1J4","OR4C6","OR51S1","OR9Q2","OR4C15","OR5D16","OR2M2","OR6C4","OR4E2"]
+  }
+]

@@ -1,0 +1,36 @@
+Uploading /gne/data/dnaseq/processed_runs/R10472/results to gs://gred-melo-carlos-lab/NGS5888/SAM24456643_1/uploads/results.
+strato cp --ionice -m --quiet /gne/data/dnaseq/processed_runs/R10472/results/LIB6238806_SAM24456643_*.fastq.gz gs://gred-melo-carlos-lab/NGS5888/SAM24456643_1/uploads/results/ --profile dssc-cumulus
+strato cp --ionice -m --quiet /gne/data/dnaseq/processed_runs/R10472/results/LIB6238830_SAM24456643_*.fastq.gz gs://gred-melo-carlos-lab/NGS5888/SAM24456643_1/uploads/results/ --profile dssc-cumulus
+strato cp --ionice -m --quiet /gne/data/dnaseq/processed_runs/R10472/results/LIB6238854_SAM24456643_*.fastq.gz gs://gred-melo-carlos-lab/NGS5888/SAM24456643_1/uploads/results/ --profile dssc-cumulus
+strato cp --ionice -m --quiet /gne/data/dnaseq/processed_runs/R10472/results/LIB6238807_SAM24456643_*.fastq.gz gs://gred-melo-carlos-lab/NGS5888/SAM24456643_1/uploads/results/ --profile dssc-cumulus
+strato cp --ionice -m --quiet /gne/data/dnaseq/processed_runs/R10472/results/LIB6238831_SAM24456643_*.fastq.gz gs://gred-melo-carlos-lab/NGS5888/SAM24456643_1/uploads/results/ --profile dssc-cumulus
+strato cp --ionice -m --quiet /gne/data/dnaseq/processed_runs/R10472/results/LIB6238855_SAM24456643_*.fastq.gz gs://gred-melo-carlos-lab/NGS5888/SAM24456643_1/uploads/results/ --profile dssc-cumulus
+strato cp --ionice -m --quiet /gne/data/dnaseq/processed_runs/R10472/results/LIB6238808_SAM24456643_*.fastq.gz gs://gred-melo-carlos-lab/NGS5888/SAM24456643_1/uploads/results/ --profile dssc-cumulus
+strato cp --ionice -m --quiet /gne/data/dnaseq/processed_runs/R10472/results/LIB6238832_SAM24456643_*.fastq.gz gs://gred-melo-carlos-lab/NGS5888/SAM24456643_1/uploads/results/ --profile dssc-cumulus
+strato cp --ionice -m --quiet /gne/data/dnaseq/processed_runs/R10472/results/LIB6238856_SAM24456643_*.fastq.gz gs://gred-melo-carlos-lab/NGS5888/SAM24456643_1/uploads/results/ --profile dssc-cumulus
+strato cp --ionice -m --quiet /gne/data/dnaseq/processed_runs/R10472/results/LIB6238809_SAM24456643_*.fastq.gz gs://gred-melo-carlos-lab/NGS5888/SAM24456643_1/uploads/results/ --profile dssc-cumulus
+strato cp --ionice -m --quiet /gne/data/dnaseq/processed_runs/R10472/results/LIB6238833_SAM24456643_*.fastq.gz gs://gred-melo-carlos-lab/NGS5888/SAM24456643_1/uploads/results/ --profile dssc-cumulus
+strato cp --ionice -m --quiet /gne/data/dnaseq/processed_runs/R10472/results/LIB6238857_SAM24456643_*.fastq.gz gs://gred-melo-carlos-lab/NGS5888/SAM24456643_1/uploads/results/ --profile dssc-cumulus
+Uploading /gne/data/dnaseq/processed_runs/R10473/results to gs://gred-melo-carlos-lab/NGS5888/SAM24456643_1/uploads/results_2.
+strato cp --ionice -m --quiet /gne/data/dnaseq/processed_runs/R10473/results/LIB6238806_SAM24456643_*.fastq.gz gs://gred-melo-carlos-lab/NGS5888/SAM24456643_1/uploads/results_2/ --profile dssc-cumulus
+strato cp --ionice -m --quiet /gne/data/dnaseq/processed_runs/R10473/results/LIB6238830_SAM24456643_*.fastq.gz gs://gred-melo-carlos-lab/NGS5888/SAM24456643_1/uploads/results_2/ --profile dssc-cumulus
+strato cp --ionice -m --quiet /gne/data/dnaseq/processed_runs/R10473/results/LIB6238854_SAM24456643_*.fastq.gz gs://gred-melo-carlos-lab/NGS5888/SAM24456643_1/uploads/results_2/ --profile dssc-cumulus
+strato cp --ionice -m --quiet /gne/data/dnaseq/processed_runs/R10473/results/LIB6238807_SAM24456643_*.fastq.gz gs://gred-melo-carlos-lab/NGS5888/SAM24456643_1/uploads/results_2/ --profile dssc-cumulus
+strato cp --ionice -m --quiet /gne/data/dnaseq/processed_runs/R10473/results/LIB6238831_SAM24456643_*.fastq.gz gs://gred-melo-carlos-lab/NGS5888/SAM24456643_1/uploads/results_2/ --profile dssc-cumulus
+strato cp --ionice -m --quiet /gne/data/dnaseq/processed_runs/R10473/results/LIB6238855_SAM24456643_*.fastq.gz gs://gred-melo-carlos-lab/NGS5888/SAM24456643_1/uploads/results_2/ --profile dssc-cumulus
+strato cp --ionice -m --quiet /gne/data/dnaseq/processed_runs/R10473/results/LIB6238808_SAM24456643_*.fastq.gz gs://gred-melo-carlos-lab/NGS5888/SAM24456643_1/uploads/results_2/ --profile dssc-cumulus
+strato cp --ionice -m --quiet /gne/data/dnaseq/processed_runs/R10473/results/LIB6238832_SAM24456643_*.fastq.gz gs://gred-melo-carlos-lab/NGS5888/SAM24456643_1/uploads/results_2/ --profile dssc-cumulus
+strato cp --ionice -m --quiet /gne/data/dnaseq/processed_runs/R10473/results/LIB6238856_SAM24456643_*.fastq.gz gs://gred-melo-carlos-lab/NGS5888/SAM24456643_1/uploads/results_2/ --profile dssc-cumulus
+strato cp --ionice -m --quiet /gne/data/dnaseq/processed_runs/R10473/results/LIB6238809_SAM24456643_*.fastq.gz gs://gred-melo-carlos-lab/NGS5888/SAM24456643_1/uploads/results_2/ --profile dssc-cumulus
+strato cp --ionice -m --quiet /gne/data/dnaseq/processed_runs/R10473/results/LIB6238833_SAM24456643_*.fastq.gz gs://gred-melo-carlos-lab/NGS5888/SAM24456643_1/uploads/results_2/ --profile dssc-cumulus
+strato cp --ionice -m --quiet /gne/data/dnaseq/processed_runs/R10473/results/LIB6238857_SAM24456643_*.fastq.gz gs://gred-melo-carlos-lab/NGS5888/SAM24456643_1/uploads/results_2/ --profile dssc-cumulus
+Uploading /gstore/home/ghaffars/Cumulus/crc_ngs5888/Cumulus/Split_1/cellranger/hashing_index.csv to gs://gred-melo-carlos-lab/NGS5888/SAM24456643_1/uploads/hashing_index.csv.
+strato cp --ionice --quiet /gstore/home/ghaffars/Cumulus/crc_ngs5888/Cumulus/Split_1/cellranger/hashing_index.csv gs://gred-melo-carlos-lab/NGS5888/SAM24456643_1/uploads/hashing_index.csv --profile dssc-cumulus
+Uploading /gstore/home/ghaffars/Cumulus/crc_ngs5888/Cumulus/Split_1/cellranger/crispr_index.csv to gs://gred-melo-carlos-lab/NGS5888/SAM24456643_1/uploads/crispr_index.csv.
+strato cp --ionice --quiet /gstore/home/ghaffars/Cumulus/crc_ngs5888/Cumulus/Split_1/cellranger/crispr_index.csv gs://gred-melo-carlos-lab/NGS5888/SAM24456643_1/uploads/crispr_index.csv --profile dssc-cumulus
+Uploading /gne/data/dnaseq/processed_runs/R10476/results to gs://gred-melo-carlos-lab/NGS5888/SAM24456643_1/uploads/results_3.
+strato cp --ionice -m --quiet /gne/data/dnaseq/processed_runs/R10476/results/LIB6238831_SAM24456643_*.fastq.gz gs://gred-melo-carlos-lab/NGS5888/SAM24456643_1/uploads/results_3/ --profile dssc-cumulus
+Rewriting file /gstore/home/ghaffars/Cumulus/crc_ngs5888/Cumulus/Split_1/cellranger/samplesheet_SAM24456643_1.csv to /local/42134513/tmpqdze_gs5.
+Uploading /local/42134513/tmpqdze_gs5 to gs://gred-melo-carlos-lab/NGS5888/SAM24456643_1/uploads/samplesheet_SAM24456643_1.csv.
+strato cp --ionice --quiet /local/42134513/tmpqdze_gs5 gs://gred-melo-carlos-lab/NGS5888/SAM24456643_1/uploads/samplesheet_SAM24456643_1.csv --profile dssc-cumulus
+Job 71255a37-0949-43d8-827a-ef2164d643cf is submitted.

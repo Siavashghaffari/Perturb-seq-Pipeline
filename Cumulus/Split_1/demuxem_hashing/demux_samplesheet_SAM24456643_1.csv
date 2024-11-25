@@ -1,0 +1,5 @@
+OUTNAME,RNA,TagFile,TYPE
+SAM24456643_rep1,gs://gred-melo-carlos-lab/NGS5888/SAM24456643_1/LIB6238806_SAM24456643/raw_feature_bc_matrix.h5,gs://gred-melo-carlos-lab/NGS5888/SAM24456643_1/LIB6238830_SAM24456643/LIB6238830_SAM24456643.hashing.csv,cell-hashing
+SAM24456643_rep2,gs://gred-melo-carlos-lab/NGS5888/SAM24456643_1/LIB6238807_SAM24456643/raw_feature_bc_matrix.h5,gs://gred-melo-carlos-lab/NGS5888/SAM24456643_1/LIB6238831_SAM24456643/LIB6238831_SAM24456643.hashing.csv,cell-hashing
+SAM24456643_rep3,gs://gred-melo-carlos-lab/NGS5888/SAM24456643_1/LIB6238808_SAM24456643/raw_feature_bc_matrix.h5,gs://gred-melo-carlos-lab/NGS5888/SAM24456643_1/LIB6238832_SAM24456643/LIB6238832_SAM24456643.hashing.csv,cell-hashing
+SAM24456643_rep4,gs://gred-melo-carlos-lab/NGS5888/SAM24456643_1/LIB6238809_SAM24456643/raw_feature_bc_matrix.h5,gs://gred-melo-carlos-lab/NGS5888/SAM24456643_1/LIB6238833_SAM24456643/LIB6238833_SAM24456643.hashing.csv,cell-hashing

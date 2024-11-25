@@ -1,0 +1,14 @@
+{
+    "cellranger_workflow.input_csv_file": "gs://gred-melo-carlos-lab/NGS5888/SAM24456643_1/uploads/samplesheet_SAM24456643_1.csv",
+    "cellranger_workflow.output_directory": "gs://gred-melo-carlos-lab/NGS5888/SAM24456643_1/",
+    "cellranger_workflow.run_mkfastq": false,
+    "cellranger_workflow.expect_cells": 20000,
+    "cellranger_workflow.crispr_barcode_pos": 19,
+    "cellranger_workflow.max_mismatch": 0,
+    "cellranger_workflow.write_to_dsdb": true,
+    "cellranger_workflow.dsdb_memory": "120G",
+    "cellranger_workflow.dsdb_disk_space": "5000",
+    "cellranger_workflow.dsdb_project_authors": "melocars,ghaffars,borozani",
+    "cellranger_workflow.dsdb_project_title": "Recursion DLD1 Library3- Screen2 (NGS5888)",
+    "cellranger_workflow.dsdb_project_description": "Production scale screen in DLD-1 cells with 1/4 of the genome-wide CRISPR library (sub-lib-3, ~22K guides). 1 time point: Day-5. We performed 24 rxns of 10x 3' HT kit with an estimated loading of 52K cells. We performed a pilot study to test the library quality before the production-level sequencing. We will submit 72 libraries (24 GEX, 24 HTO and 24 sgRNA) We request 600M reads for GEX, 20M for HTO and 40M for sgRNA, after finishing QC sequencing of NGS5887. NGS has built the GEX and sgRNA libraries using automation, we will provide manually constructed HTO libraries."
+}

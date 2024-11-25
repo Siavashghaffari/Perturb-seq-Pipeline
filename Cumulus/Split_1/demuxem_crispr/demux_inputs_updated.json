@@ -1,0 +1,9 @@
+{
+    "demultiplexing.input_sample_sheet": "gs://gred-melo-carlos-lab/NGS5888/SAM24456643_1/uploads/demux_samplesheet_SAM24456643_1.csv",
+    "demultiplexing.output_directory": "gs://gred-melo-carlos-lab/NGS5888/SAM24456643_1/demuxem",
+    "demultiplexing.genome": "gs://gred-melo-carlos-lab/genomes/GRCh38_TurboGFP/GRCh38-2020-A_and_TurboGFP.tar.gz",
+    "demultiplexing.demuxEM_memory": "120G",
+    "demultiplexing.antibody_index_mapping_csv": "gs://gred-melo-carlos-lab/NGS5888/SAM24456643_1/uploads/crispr_demux_index_map.csv",
+    "demultiplexing.dsdb_id": "DS000017732",
+    "demultiplexing.dsdb_project_authors": "melocars,ghaffars,borozani"
+}
